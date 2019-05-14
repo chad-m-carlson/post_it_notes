@@ -1,5 +1,6 @@
-<h1> New Note </h1>
-<%= form_for @new_note do |f| %>
+<h1> Edit Your Note </h1>
+
+<%= form_for @note do |f| %>
   <%= f.label :title  %>
   <%= f.text_field :title %>
 
@@ -11,4 +12,6 @@
 
   <%= f.submit %>
 
+  <%= link_to  "Back", notes_path %>
+  
 <% end %>

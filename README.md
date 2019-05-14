@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basic Objectives
 
-Things you may want to cover:
+1. Create a new rails application with a postgres database.
 
-* Ruby version
+2. Create a model for a Note
 
-* System dependencies
+3. Create a controller for Notes
 
-* Configuration
+4. Implement all of the CRUD actions for Notes
 
-* Database creation
+5. Create all of the Views for Notes (Index, Show, Edit, New)
 
-* Database initialization
+6. Create a NavBar that appears on every page
 
-* How to run the test suite
+7. Create A Home page
 
-* Services (job queues, cache servers, search engines, etc.)
+8. Submit Github URL
 
-* Deployment instructions
+ 
 
-* ...
+Bonus Objectives:
+Create a partial for you new and edit views and make only the title change depending on if you are making a new Note or editing a Note
